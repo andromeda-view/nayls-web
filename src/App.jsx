@@ -1,19 +1,22 @@
-// App.jsx
-import Hero from "./components/Hero2";
-import Services from "./components/Services";
-import SocialLinks from "./components/SocialLinks";
-import Footer from "./components/Footer";
-import "./styles.css"; // Archivo global de estilos
-
-function App() {
-  return (
-    <div className="app-container">
-      <Hero />
-      <Services />
-      <SocialLinks />
-      <Footer />
-    </div>
-  );
-}
-
-export default App;
+/* ==========================
+   App.jsx
+   ========================== */
+   import Hero2 from "./components/Hero2";
+   import Services from "./components/Services";
+   import SocialLinks from "./components/SocialLinks";
+   import Footer from "./components/Footer";
+   import "bootstrap/dist/css/bootstrap.min.css";
+   import "./styles.css";
+   
+   function App() {
+     return (
+       <>
+         <Hero2 />
+         <Services />
+         <SocialLinks />
+         <Footer />
+       </>
+     );
+   }
+   
+   export default App;
